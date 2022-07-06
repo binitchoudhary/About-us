@@ -12,14 +12,14 @@
     background-position: center;
 } */
 .banner-text {
-    line-height: 49px;
+    line-height: 46px;
     font-size: 74px;
     font-weight: 500;
-    margin: 0 0 0px 600px;
-    color: #414242;
-    padding: 210px 0 0 25px;
+    color: rgb(65, 66, 66);
+    position: absolute;
+    top: 158px;
+    right: 289px;
 }
-
 .real{
     color: #414242;
     font-style: Italic;
@@ -68,10 +68,10 @@ img.food {
     color: #686A6A;
 }
 
-.community{
+/* .community{
     background: url(./Assets/Food\ Bank\ Elderly\ Woman\ Eating.jpg);
     background-repeat: no-repeat;
-}
+} */
 
 .learn-more{
     padding: 8px 40px 8px 40px;
@@ -158,4 +158,26 @@ li,a:hover{
 
 .footer-border{
     border-bottom: 1px solid gray;
+}
+
+.community{
+    position: absolute;
+    top: 918px;
+    left: 187px;
+}
+
+.heroes{
+    font-size: 74px;
+    color: #2F666D;
+    line-height: 1;
+}
+
+.the-food{
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.let{
+    font-size: 64px;
 }
