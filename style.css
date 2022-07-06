@@ -140,7 +140,7 @@ li,a:hover{
 .good-cart{
     display: flex;
     height: 79px;
-    justify-content: end;
+    justify-content: start;
     /* border-right: 1px solid; */
 }
 
@@ -180,4 +180,8 @@ li,a:hover{
 
 .let{
     font-size: 64px;
+}
+
+.great{
+   background-color: #FCF4EE;
 }
