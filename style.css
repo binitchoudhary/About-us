@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-image{
+    background-image: url(./Assets/Smiling_Girl.jpg);
+    min-height: 568px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-text {
+    line-height: 49px;
+    font-size: 74px;
+    font-weight: 500;
+    margin: 0 0 0px 600px;
+    color: #414242;
+    padding: 210px 0 0 25px;
+}
+
+.real{
+    color: #414242;
+    font-style: Italic;
+    font-weight: 600;
+}
+
+.shop{
+    color: #FDFDFD;
+}
+
+.buy-good {
+    font-size: 30px;
+    color: #FDFDFD;
+    font-weight: 500;
+}
+
+.goodies{
+    background-color: #FCF4EE;
+    justify-content: center;
+}
+
+.pro1 {
+    background-color: #2F666D;
+    margin: 65px 0px 14px 65px;
+    min-width: 348px;
+    min-height: 142px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+img.food {
+    width: 162px;
+    height: 162px;
+    position: absolute;
+    margin: 0px 0 0 0px;
+    top: 54px;
+    left: -30px;
+    background-size: cover;
+}
+
+.goodness{
+    text-align: justify;
+    font-weight: 500;
+    color: #686A6A;
+}
+
+.community{
+    background: url(./Assets/Food\ Bank\ Elderly\ Woman\ Eating.jpg);
+    background-repeat: no-repeat;
+}
+
+.learn-more{
+    padding: 8px 40px 8px 40px;
+    background-color: #AB5B22;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.learn-more:hover{
+    padding: 4px 20px 4px 20px;
+    background-color: #AB5B22;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease-in;
+    font-style: bold;
+}
+.logo{
+    width: 281px;
+    height: 79px;
+}
+.buy{
+    font-size: 29px;
+    color: #367560;
+}
+.search{
+    /* border-radius: 0; */
+    border: 1px solid #2F666D;
+    margin: -3px;
+}
+.btns{
+    /* border-radius: 0; */
+    background-color: #2F666D;
+    border: 1px solid #2F666D;
+}
+
+.footer{
+    background-color: #2F666D;
+    color: #fff;
+}
+
+li,a.footer-menu{
+    list-style: none;
+    color: #FDFDFD!important;
+    text-decoration: none;
+}
+li,a:hover{
+    list-style: none;
+    color: #FDFDFD;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.about-us{
+    color: #D67A3C;
+}
+.footer-top,a:hover{
+    color: #FDFAF6;
+    text-decoration: none;
+    pointer-events: none;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.good-cart{
+    display: flex;
+    height: 79px;
+    justify-content: end;
+    border-right: 1px solid;
+}
+
+.assets{
+    justify-content: space-between;
+}
+
+.secondf{
+    margin-top: 40px;
+}
+
+.footer-middle,a:hover{
+    text-decoration: none;
+}
+
+.footer-border{
+    border-bottom: 1px solid gray;
+}
