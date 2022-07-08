@@ -4,21 +4,14 @@
     box-sizing: border-box;
 }
 
-
-/* .hero-image{
-    background-image: url(./Assets/Smiling_Girl.jpg);
-    min-height: 568px;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 .banner-text {
     line-height: 46px;
     font-size: 74px;
     font-weight: 500;
     color: rgb(65, 66, 66);
     position: absolute;
-    top: 158px;
-    right: 289px;
+    top: 25%;
+    right: 20%;
 }
 .real{
     color: #414242;
@@ -26,8 +19,10 @@
     font-weight: 600;
 }
 
-.shop{
+.shop {
     color: #FDFDFD;
+    padding-left: 29px;
+    font-size: 16px;
 }
 
 .buy-good {
@@ -181,7 +176,85 @@ li,a:hover{
 .let{
     font-size: 64px;
 }
+.good-kart{
+    max-height: 79px;
+}
 
 .great{
    background-color: #FCF4EE;
+}
+.mobile-banner{
+    min-width: -webkit-fill-available;
+    display: none;
+}
+.mobile-old-lady{
+    min-width: -webkit-fill-available;
+    display: none;
+}
+@media (max-width:780px) {
+    .desktop-banner{
+        display: none;
+    }
+    .mobile-banner{
+        display: block;
+    }
+    .desktop-old-lady{
+        display: none;
+    }
+    .mobile-old-lady{
+        display: block;
+    }
+    #great{
+        display: flex!important;
+        flex-direction: column;
+        padding-top: 12%;
+    }
+    .heart-cart{
+        justify-content: center;
+    }
+    img.food{
+        position: absolute;
+        left: 12%;
+    }
+    .pro1{
+        border-radius: 30px;
+    }
+    .banner-text {
+        line-height: 65px;
+        font-size: 74px;
+        font-weight: 700;
+        color: #414242;
+        position: absolute;
+        top: 43%;
+        right: 20%;
+    }
+    .heart{
+        margin-bottom: -18%;
+    }
+    .goodness {
+        font-weight: 700;
+        color: #686A6A;
+        font-size: 16pt;
+    }
+    .community {
+        position: absolute;
+        top: 178%;
+        left: 10%;
+    }
+    .good{
+        display: flex;
+        /* height: 79px; */
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-left: 150px;
+        /* border-right: 1px solid; */
+    }
+    .cart{
+        padding-top: 25%;
+        padding-bottom: 5%;
+    }
+    .search{
+        padding-left: 40px;
+    }
+    
 }
